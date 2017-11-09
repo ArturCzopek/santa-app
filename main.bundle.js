@@ -2265,11 +2265,13 @@ var AuthService = (function () {
         this.afAuth = afAuth;
         this.userEntry = null;
         this.afAuth.authState.subscribe(function (user) {
-            _this.userEntry = {
-                uid: user.uid,
-                displayName: user.displayName,
-                photoURL: user.photoURL
-            };
+            if (user.uid && user.displayName && user.photoURL) {
+                var uid = user.uid, displayName = user.displayName, photoURL = user.photoURL;
+                _this.userEntry = { uid: uid, displayName: displayName, photoURL: photoURL };
+            }
+            else {
+                _this.userEntry = null;
+            }
         });
     }
     AuthService.prototype.getUser = function () {
@@ -2281,7 +2283,6 @@ var AuthService = (function () {
     };
     AuthService.prototype.logout = function () {
         this.afAuth.auth.signOut();
-        this.userEntry = null;
     };
     AuthService.prototype.getCurrentUserEntry = function () {
         return this.userEntry;
