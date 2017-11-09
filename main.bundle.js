@@ -1861,6 +1861,18 @@ var NewDrawModalComponent = (function (_super) {
     NewDrawModalComponent.prototype.createNewDraw = function () {
         var _this = this;
         var _a = this, name = _a.name, description = _a.description, password = _a.password;
+        if (name.length > 20) {
+            this.errorMessage = 'Name length max 20';
+            return;
+        }
+        else if (this.description.length > 150) {
+            this.errorMessage = 'Description length max 150';
+            return;
+        }
+        else if (this.password.length < 2) {
+            this.errorMessage = 'Password length min 2';
+            return;
+        }
         var newDraw = {
             name: name,
             description: description,
