@@ -56,8 +56,8 @@ var RenderType_AppComponent = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /
 
 function View_AppComponent_1(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_26" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ɵeld */](0, 0, null, null, 1, "santa-login", [], null, null, null, __WEBPACK_IMPORTED_MODULE_1__login_component_ngfactory__["b" /* View_LoginComponent_0 */], __WEBPACK_IMPORTED_MODULE_1__login_component_ngfactory__["a" /* RenderType_LoginComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* ɵdid */](1, 4243456, null, 0, __WEBPACK_IMPORTED_MODULE_2__login_component__["a" /* LoginComponent */], [__WEBPACK_IMPORTED_MODULE_3__service_auth_service__["a" /* AuthService */], __WEBPACK_IMPORTED_MODULE_4__service_snow_service__["a" /* SnowService */]], null, null)], null, null); }
 function View_AppComponent_2(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_26" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ɵeld */](0, 0, null, null, 1, "santa-main", [], null, null, null, __WEBPACK_IMPORTED_MODULE_5__main_panel_main_component_ngfactory__["b" /* View_MainComponent_0 */], __WEBPACK_IMPORTED_MODULE_5__main_panel_main_component_ngfactory__["a" /* RenderType_MainComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* ɵdid */](1, 4308992, null, 0, __WEBPACK_IMPORTED_MODULE_6__main_panel_main_component__["a" /* MainComponent */], [__WEBPACK_IMPORTED_MODULE_3__service_auth_service__["a" /* AuthService */], __WEBPACK_IMPORTED_MODULE_7__service_draw_service__["a" /* DrawService */], __WEBPACK_IMPORTED_MODULE_4__service_snow_service__["a" /* SnowService */]], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
-function View_AppComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_26" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ɵeld */](1, 0, null, null, 0, "div", [["id", "snow"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* ɵand */](16777216, null, null, 2, null, View_AppComponent_1)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* ɵdid */](4, 16384, null, 0, __WEBPACK_IMPORTED_MODULE_8__angular_common__["f" /* NgIf */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["Q" /* ViewContainerRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_21" /* ɵpid */](131072, __WEBPACK_IMPORTED_MODULE_8__angular_common__["a" /* AsyncPipe */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* ChangeDetectorRef */]]), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* ɵand */](16777216, null, null, 2, null, View_AppComponent_2)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* ɵdid */](8, 16384, null, 0, __WEBPACK_IMPORTED_MODULE_8__angular_common__["f" /* NgIf */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["Q" /* ViewContainerRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_21" /* ɵpid */](131072, __WEBPACK_IMPORTED_MODULE_8__angular_common__["a" /* AsyncPipe */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* ChangeDetectorRef */]]), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵted */](-1, null, ["\n  "]))], function (_ck, _v) { var _co = _v.component; var tmp_0_0 = null; var currVal_0 = !(((tmp_0_0 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵunv */](_v, 4, 0, __WEBPACK_IMPORTED_MODULE_0__angular_core__["_19" /* ɵnov */](_v, 5).transform(_co.user))) == null) ? null : tmp_0_0.uid); _ck(_v, 4, 0, currVal_0); var tmp_1_0 = null; var currVal_1 = (((tmp_1_0 = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_25" /* ɵunv */](_v, 8, 0, __WEBPACK_IMPORTED_MODULE_0__angular_core__["_19" /* ɵnov */](_v, 9).transform(_co.user))) == null) ? null : tmp_1_0.uid); _ck(_v, 8, 0, currVal_1); }, null); }
-function View_AppComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_26" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ɵeld */](0, 0, null, null, 1, "santa-root", [], null, null, null, View_AppComponent_0, RenderType_AppComponent)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* ɵdid */](1, 114688, null, 0, __WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* AppComponent */], [__WEBPACK_IMPORTED_MODULE_3__service_auth_service__["a" /* AuthService */]], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+function View_AppComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_26" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ɵeld */](1, 0, null, null, 0, "div", [["id", "snow"]], null, null, null, null, null)), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* ɵand */](16777216, null, null, 1, null, View_AppComponent_1)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* ɵdid */](4, 16384, null, 0, __WEBPACK_IMPORTED_MODULE_8__angular_common__["f" /* NgIf */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["Q" /* ViewContainerRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_2" /* ɵand */](16777216, null, null, 1, null, View_AppComponent_2)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* ɵdid */](7, 16384, null, 0, __WEBPACK_IMPORTED_MODULE_8__angular_common__["f" /* NgIf */], [__WEBPACK_IMPORTED_MODULE_0__angular_core__["Q" /* ViewContainerRef */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* TemplateRef */]], { ngIf: [0, "ngIf"] }, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵted */](-1, null, ["\n  "]))], function (_ck, _v) { var _co = _v.component; var tmp_0_0 = null; var currVal_0 = !(((tmp_0_0 = _co.authService.getCurrentUserEntry()) == null) ? null : tmp_0_0.uid); _ck(_v, 4, 0, currVal_0); var tmp_1_0 = null; var currVal_1 = (((tmp_1_0 = _co.authService.getCurrentUserEntry()) == null) ? null : tmp_1_0.uid); _ck(_v, 7, 0, currVal_1); }, null); }
+function View_AppComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_26" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ɵeld */](0, 0, null, null, 1, "santa-root", [], null, null, null, View_AppComponent_0, RenderType_AppComponent)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* ɵdid */](1, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* AppComponent */], [__WEBPACK_IMPORTED_MODULE_3__service_auth_service__["a" /* AuthService */]], null, null)], null, null); }
 var AppComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* ɵccf */]("santa-root", __WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* AppComponent */], View_AppComponent_Host_0, {}, {}, []);
 
 
@@ -85,16 +85,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 var AppComponent = (function () {
+    // userEntry: UserEntry;
     function AppComponent(authService) {
         this.authService = authService;
     }
-    AppComponent.prototype.ngOnInit = function () {
-        this.user = this.authService.getUser();
-    };
     AppComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* Component */])({
             selector: 'santa-root',
-            template: "\n    <div id=\"snow\"></div>\n    <santa-login *ngIf=\"!(user | async)?.uid\"></santa-login>\n    <santa-main *ngIf=\"(user | async)?.uid\"></santa-main>\n  "
+            template: "\n    <div id=\"snow\"></div>\n    <santa-login *ngIf=\"!authService.getCurrentUserEntry()?.uid\"></santa-login>\n    <santa-main *ngIf=\"authService.getCurrentUserEntry()?.uid\"></santa-main>\n  "
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__service_auth_service__["a" /* AuthService */]])
     ], AppComponent);
@@ -593,8 +591,14 @@ var DrawCardComponent = (function () {
         var _this = this;
         this.user = this.authService.getUser();
         this.user.subscribe(function (user) {
-            _this.isParticipant = _this.draw.participants.some(function (pcp) { return pcp.uid === user.uid; });
-            _this.isOwner = _this.draw.owner.uid === user.uid;
+            if (user && user.uid) {
+                _this.isParticipant = _this.draw.participants.some(function (pcp) { return pcp.uid === user.uid; });
+                _this.isOwner = _this.draw.owner.uid === user.uid;
+            }
+            else {
+                _this.isParticipant = false;
+                _this.isOwner = false;
+            }
         });
     };
     DrawCardComponent.prototype.isActive = function () {
@@ -792,27 +796,29 @@ var DrawsComponent = (function () {
     DrawsComponent.prototype.ngOnInit = function () {
         var _this = this;
         this.authService.getUser().subscribe(function (user) {
-            _this.uid = user.uid;
-            _this.isLoading = true;
-            _this.drawService.getDraws()
-                .subscribe(function (draws) {
-                _this.availableDraws = [];
-                _this.userDraws = [];
-                draws.forEach(function (draw) {
-                    if (draw.status === 'ACTIVE' && !draw.participants.some(function (pcp) { return pcp.uid === _this.uid; })) {
-                        _this.availableDraws.push(draw);
-                    }
-                    else if (draw.participants.some(function (pcp) { return pcp.uid === _this.uid; })) {
-                        _this.userDraws.push(draw);
-                    }
+            if (user) {
+                _this.uid = user.uid;
+                _this.isLoading = true;
+                _this.drawService.getDraws()
+                    .subscribe(function (draws) {
+                    _this.availableDraws = [];
+                    _this.userDraws = [];
+                    draws.forEach(function (draw) {
+                        if (draw.status === 'ACTIVE' && !draw.participants.some(function (pcp) { return pcp.uid === _this.uid; })) {
+                            _this.availableDraws.push(draw);
+                        }
+                        else if (draw.participants.some(function (pcp) { return pcp.uid === _this.uid; })) {
+                            _this.userDraws.push(draw);
+                        }
+                    });
+                    _this.availableDraws = _this.drawService.sortDraws(_this.availableDraws);
+                    _this.userDraws = _this.drawService.sortDraws(_this.userDraws);
+                    _this.isLoading = false;
+                    setTimeout(function () {
+                        _this.snowService.updateSnow();
+                    }, 500);
                 });
-                _this.availableDraws = _this.drawService.sortDraws(_this.availableDraws);
-                _this.userDraws = _this.drawService.sortDraws(_this.userDraws);
-                _this.isLoading = false;
-                setTimeout(function () {
-                    _this.snowService.updateSnow();
-                }, 500);
-            });
+            }
         });
     };
     DrawsComponent = __decorate([
@@ -1041,7 +1047,7 @@ var HeaderComponent = (function () {
 var styles_MainComponent = [];
 var RenderType_MainComponent = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* ɵcrt */]({ encapsulation: 2, styles: styles_MainComponent, data: {} });
 
-function View_MainComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_26" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ɵeld */](1, 0, null, null, 1, "santa-header", [], null, null, null, __WEBPACK_IMPORTED_MODULE_1__header_component_ngfactory__["b" /* View_HeaderComponent_0 */], __WEBPACK_IMPORTED_MODULE_1__header_component_ngfactory__["a" /* RenderType_HeaderComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* ɵdid */](2, 4308992, null, 0, __WEBPACK_IMPORTED_MODULE_2__header_component__["a" /* HeaderComponent */], [__WEBPACK_IMPORTED_MODULE_3__service_auth_service__["a" /* AuthService */], __WEBPACK_IMPORTED_MODULE_4__modals_modals_stream__["a" /* ModalsStream */]], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ɵeld */](4, 0, null, null, 1, "santa-draws", [], null, null, null, __WEBPACK_IMPORTED_MODULE_5__draws_component_ngfactory__["b" /* View_DrawsComponent_0 */], __WEBPACK_IMPORTED_MODULE_5__draws_component_ngfactory__["a" /* RenderType_DrawsComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* ɵdid */](5, 114688, null, 0, __WEBPACK_IMPORTED_MODULE_6__draws_component__["a" /* DrawsComponent */], [__WEBPACK_IMPORTED_MODULE_7__service_draw_service__["a" /* DrawService */], __WEBPACK_IMPORTED_MODULE_8__service_snow_service__["a" /* SnowService */], __WEBPACK_IMPORTED_MODULE_3__service_auth_service__["a" /* AuthService */]], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ɵeld */](7, 0, null, null, 1, "santa-fab-button", [], null, null, null, __WEBPACK_IMPORTED_MODULE_9__fab_button_component_ngfactory__["b" /* View_FabButtonComponent_0 */], __WEBPACK_IMPORTED_MODULE_9__fab_button_component_ngfactory__["a" /* RenderType_FabButtonComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* ɵdid */](8, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_10__fab_button_component__["a" /* FabButtonComponent */], [__WEBPACK_IMPORTED_MODULE_4__modals_modals_stream__["a" /* ModalsStream */]], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ɵeld */](10, 0, null, null, 1, "santa-modals", [], null, null, null, __WEBPACK_IMPORTED_MODULE_11__modals_modals_component_ngfactory__["b" /* View_ModalsComponent_0 */], __WEBPACK_IMPORTED_MODULE_11__modals_modals_component_ngfactory__["a" /* RenderType_ModalsComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* ɵdid */](11, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_12__modals_modals_component__["a" /* ModalsComponent */], [], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵted */](-1, null, ["\n  "]))], function (_ck, _v) { _ck(_v, 2, 0); _ck(_v, 5, 0); }, null); }
+function View_MainComponent_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_26" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ɵeld */](1, 0, null, null, 1, "santa-header", [], null, null, null, __WEBPACK_IMPORTED_MODULE_1__header_component_ngfactory__["b" /* View_HeaderComponent_0 */], __WEBPACK_IMPORTED_MODULE_1__header_component_ngfactory__["a" /* RenderType_HeaderComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* ɵdid */](2, 4308992, null, 0, __WEBPACK_IMPORTED_MODULE_2__header_component__["a" /* HeaderComponent */], [__WEBPACK_IMPORTED_MODULE_3__service_auth_service__["a" /* AuthService */], __WEBPACK_IMPORTED_MODULE_4__modals_modals_stream__["a" /* ModalsStream */]], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ɵeld */](4, 0, null, null, 1, "santa-draws", [], null, null, null, __WEBPACK_IMPORTED_MODULE_5__draws_component_ngfactory__["b" /* View_DrawsComponent_0 */], __WEBPACK_IMPORTED_MODULE_5__draws_component_ngfactory__["a" /* RenderType_DrawsComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* ɵdid */](5, 114688, null, 0, __WEBPACK_IMPORTED_MODULE_6__draws_component__["a" /* DrawsComponent */], [__WEBPACK_IMPORTED_MODULE_7__service_draw_service__["a" /* DrawService */], __WEBPACK_IMPORTED_MODULE_8__service_snow_service__["a" /* SnowService */], __WEBPACK_IMPORTED_MODULE_3__service_auth_service__["a" /* AuthService */]], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ɵeld */](7, 0, null, null, 1, "santa-fab-button", [], null, null, null, __WEBPACK_IMPORTED_MODULE_9__fab_button_component_ngfactory__["b" /* View_FabButtonComponent_0 */], __WEBPACK_IMPORTED_MODULE_9__fab_button_component_ngfactory__["a" /* RenderType_FabButtonComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* ɵdid */](8, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_10__fab_button_component__["a" /* FabButtonComponent */], [__WEBPACK_IMPORTED_MODULE_4__modals_modals_stream__["a" /* ModalsStream */]], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵted */](-1, null, ["\n    "])), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ɵeld */](10, 0, null, null, 1, "santa-modals", [], null, null, null, __WEBPACK_IMPORTED_MODULE_11__modals_modals_component_ngfactory__["b" /* View_ModalsComponent_0 */], __WEBPACK_IMPORTED_MODULE_11__modals_modals_component_ngfactory__["a" /* RenderType_ModalsComponent */])), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* ɵdid */](11, 49152, null, 0, __WEBPACK_IMPORTED_MODULE_12__modals_modals_component__["a" /* ModalsComponent */], [], null, null), (_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_24" /* ɵted */](-1, null, ["\n  "]))], function (_ck, _v) { _ck(_v, 2, 0); _ck(_v, 5, 0); }, null); }
 function View_MainComponent_Host_0(_l) { return __WEBPACK_IMPORTED_MODULE_0__angular_core__["_26" /* ɵvid */](0, [(_l()(), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ɵeld */](0, 0, null, null, 1, "santa-main", [], null, null, null, View_MainComponent_0, RenderType_MainComponent)), __WEBPACK_IMPORTED_MODULE_0__angular_core__["_6" /* ɵdid */](1, 4308992, null, 0, __WEBPACK_IMPORTED_MODULE_13__main_component__["a" /* MainComponent */], [__WEBPACK_IMPORTED_MODULE_3__service_auth_service__["a" /* AuthService */], __WEBPACK_IMPORTED_MODULE_7__service_draw_service__["a" /* DrawService */], __WEBPACK_IMPORTED_MODULE_8__service_snow_service__["a" /* SnowService */]], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
 var MainComponentNgFactory = __WEBPACK_IMPORTED_MODULE_0__angular_core__["_3" /* ɵccf */]("santa-main", __WEBPACK_IMPORTED_MODULE_13__main_component__["a" /* MainComponent */], View_MainComponent_Host_0, {}, {}, []);
 
@@ -1089,7 +1095,7 @@ var MainComponent = (function () {
     MainComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* Component */])({
             selector: 'santa-main',
-            template: "\n    <santa-header></santa-header>\n    <santa-draws></santa-draws>\n    <santa-fab-button></santa-fab-button>\n    <santa-modals></santa-modals>\n    <!--<ul *ngFor=\"let market of markets | async\">-->\n    <!--<li>-->\n    <!--<strong>{{ market.name}}</strong>-->\n    <!--<br>-->\n    <!--{{market.description}}-->\n    <!--</li>-->\n    <!--</ul>-->\n  "
+            template: "\n    <santa-header></santa-header>\n    <santa-draws></santa-draws>\n    <santa-fab-button></santa-fab-button>\n    <santa-modals></santa-modals>\n  "
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__service_auth_service__["a" /* AuthService */], __WEBPACK_IMPORTED_MODULE_2__service_draw_service__["a" /* DrawService */], __WEBPACK_IMPORTED_MODULE_3__service_snow_service__["a" /* SnowService */]])
     ], MainComponent);
@@ -2269,7 +2275,7 @@ var AuthService = (function () {
         this.afAuth = afAuth;
         this.userEntry = null;
         this.afAuth.authState.subscribe(function (user) {
-            if (user.uid && user.displayName && user.photoURL) {
+            if (user && user.uid && user.displayName && user.photoURL) {
                 var uid = user.uid, displayName = user.displayName, photoURL = user.photoURL;
                 _this.userEntry = { uid: uid, displayName: displayName, photoURL: photoURL };
             }
@@ -2289,7 +2295,14 @@ var AuthService = (function () {
         this.afAuth.auth.signOut();
     };
     AuthService.prototype.getCurrentUserEntry = function () {
-        return this.userEntry;
+        if (!this.userEntry && this.afAuth.auth.currentUser) {
+            var _a = this.afAuth.auth.currentUser, uid = _a.uid, displayName = _a.displayName, photoURL = _a.photoURL;
+            this.userEntry = { uid: uid, displayName: displayName, photoURL: photoURL };
+        }
+        if (this.userEntry) {
+            return this.userEntry;
+        }
+        return null;
     };
     AuthService = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["q" /* Injectable */])(),
