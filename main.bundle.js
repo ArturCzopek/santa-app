@@ -1212,6 +1212,8 @@ var BaseModal = (function () {
         this.openModal$.unsubscribe();
     };
     BaseModal.prototype.openModal = function () {
+        this.successMessage = '';
+        this.errorMessage = '';
         this.modalActions.emit({ action: 'modal', params: ['open'] });
         setTimeout(function () { return Materialize.updateTextFields(); }, 500);
     };
