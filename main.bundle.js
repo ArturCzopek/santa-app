@@ -806,12 +806,14 @@ var DrawsComponent = (function () {
                         _this.userDraws.push(draw);
                     }
                 });
+                _this.availableDraws = _this.drawService.sortDraws(_this.availableDraws);
+                _this.userDraws = _this.drawService.sortDraws(_this.userDraws);
                 _this.isLoading = false;
+                setTimeout(function () {
+                    _this.snowService.updateSnow();
+                }, 500);
             });
         });
-        setTimeout(function () {
-            _this.snowService.updateSnow();
-        }, 3000);
     };
     DrawsComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["i" /* Component */])({
@@ -2331,6 +2333,9 @@ var DrawService = (function () {
     }
     DrawService.prototype.getDraws = function () {
         return this.drawsCollection.valueChanges();
+    };
+    DrawService.prototype.sortDraws = function (draws) {
+        return draws.sort(function (a, b) { return (a.status > b.status) ? 1 : -1; });
     };
     DrawService.prototype.joinToDraw = function (draw, password) {
         var _this = this;
