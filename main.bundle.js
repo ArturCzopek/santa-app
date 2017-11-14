@@ -2221,14 +2221,10 @@ var WinnerModalComponent = (function (_super) {
         _super.prototype.ngOnInit.call(this);
         this.openModal$ = this.modalsStream.getWinnerModalStream().subscribe(function (draw) {
             _this.draw = draw;
+            _this.showWow = true;
+            _this.drawService.getWinner(_this.draw).then(function (winner) { return _this.winner = winner; });
             _this.openModal();
         });
-    };
-    WinnerModalComponent.prototype.openModal = function () {
-        var _this = this;
-        _super.prototype.openModal.call(this);
-        this.showWow = true;
-        this.drawService.getWinner(this.draw).then(function (winner) { return _this.winner = winner; });
     };
     WinnerModalComponent.prototype.closeModal = function () {
         _super.prototype.closeModal.call(this);
