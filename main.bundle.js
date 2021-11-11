@@ -2129,7 +2129,7 @@ var AuthService = (function () {
         return this.afAuth.authState;
     };
     AuthService.prototype.login = function () {
-        this.afAuth.auth.signInWithPopup(new __WEBPACK_IMPORTED_MODULE_1_firebase__["auth"].FacebookAuthProvider())
+        this.afAuth.auth.signInWithPopup(new __WEBPACK_IMPORTED_MODULE_1_firebase__["auth"].GoogleAuthProvider())
             .catch(function (error) { return alert(error.message + " Please try again"); });
     };
     AuthService.prototype.logout = function () {
