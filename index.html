@@ -1,33 +1,150 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="pl">
 <head>
-  <meta charset="utf-8">
-  <title>Santa App</title>
-  <base href="https://arturczopek.github.io/santa-app/">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-  <link rel="manifest" href="manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
-  <meta name="theme-color" content="#2196f3">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Przekierowanie do nowej wersji</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #e0f7fa 0%, #4fc3f7 100%);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #37474f;
+    }
+
+    .container {
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+      max-width: 650px;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #0277bd;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 25px;
+    }
+
+    .highlight {
+      color: #01579b;
+      font-weight: 500;
+    }
+
+    .loader {
+      margin: 30px auto;
+      position: relative;
+      width: 60px;
+      height: 60px;
+    }
+
+    .loader:before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      border: 3px solid #e0e0e0;
+      border-top-color: #0277bd;
+      animation: spin 1s infinite linear;
+    }
+
+    .countdown {
+      font-size: 22px;
+      font-weight: 500;
+      color: #0277bd;
+      margin-top: 20px;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #546e7a;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        margin: 20px;
+        padding: 30px;
+      }
+    }
+  </style>
 </head>
 <body>
-  <santa-root></santa-root>
-<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="polyfills.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="scripts.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
+<div class="container">
+  <h1>Dostępna jest nowa wersja aplikacji!</h1>
+  <p>Dziękujemy za korzystanie z naszej aplikacji. Pracowaliśmy ciężko, aby stworzyć <span class="highlight">nową, ulepszoną wersję</span> z większą ilością funkcji i lepszym interfejsem użytkownika.</p>
+
+  <p>Za chwilę zostaniesz przekierowany do nowej wersji. Prosimy o chwilę cierpliwości...</p>
+
+  <div class="loader"></div>
+
+  <div class="countdown">
+    Przekierowanie za <span id="timer">5</span> sekund
+  </div>
+
+  <div class="footer">
+    Jeśli nie zostaniesz przekierowany automatycznie, <a href="https://username.github.io/new-app-repo" id="redirect-link">kliknij tutaj</a>.
+  </div>
+</div>
+
+<script>
+  // Set the target URL for redirection
+  const targetUrl = 'https://arturczopek.github.io/santa-app-v2'; // Change this to your new app URL
+
+  // Update the direct link
+  document.getElementById('redirect-link').href = targetUrl;
+
+  // Set up countdown
+  let timeLeft = 5;
+  const timerElement = document.getElementById('timer');
+
+  const countdown = setInterval(() => {
+    timeLeft--;
+    timerElement.textContent = timeLeft;
+
+    if (timeLeft <= 0) {
+      clearInterval(countdown);
+      window.location.href = targetUrl;
+    }
+  }, 1000);
+</script>
+</body>
 </html>
